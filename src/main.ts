@@ -1,21 +1,43 @@
-import './style.css';
-import typescriptLogo from './typescript.svg';
-import viteLogo from '/vite.svg';
+import 'style.css';
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
-    </a>
-    <h1>Vite + TypeScript</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
-    </p>
+document.querySelector<HTMLDivElement>('.app')!.innerHTML = `
+   <ul class="characters-list row list-unstyled">
+      <li class="character col">
+        <div class="card character__card">
+          <img src="img/no-one.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
+          <div class="card-body">
+            <h2 class="character__name card-title h4">Nombre y familia</h2>
+            <div class="character__info">
+              <ul class="list-unstyled">
+                <li>Edad: X años</li>
+                <li>
+                  Estado:
+                  <i class="fas fa-thumbs-down"></i>
+                  <i class="fas fa-thumbs-up"></i>
+                </li>
+              </ul>
+            </div>
+            <div class="character__overlay">
+              <ul class="list-unstyled">
+                <li>Años de reinado: X</li>
+                <li>Arma: XXX</li>
+                <li>Destreza: X</li>
+                <li>Peloteo: X</li>
+                <li>Asesora a: X</li>
+                <li>Sirve a: X</li>
+              </ul>
+              <div class="character__actions">
+                <button class="character__action btn">habla</button>
+                <button class="character__action btn">muere</button>
+              </div>
+            </div>
+          </div>
+          <i class="emoji"></i>
+        </div>
+      </li>
+    </ul>
+     <div class="comunications">
+    <p class="comunications__text display-1">Una frase que dice alguien</p>
+    <img class="comunications__picture" src="img/no-one.jpg" alt="Nombre y familia del que habla" />
   </div>
 `;
