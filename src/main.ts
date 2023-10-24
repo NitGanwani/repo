@@ -4,7 +4,7 @@ document.querySelector<HTMLDivElement>('.app')!.innerHTML = `
   <ul class="characters-list row list-unstyled">
     <li class="character col">
       <div class="card character__card">
-        <img src="img/no-one.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
+        <img src="/no-one.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
         <div class="card-body">
           <h2 class="character__name card-title h4">Nombre y familia</h2>
           <div class="character__info">
