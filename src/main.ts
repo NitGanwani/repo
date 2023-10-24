@@ -12,7 +12,7 @@ document.querySelector<HTMLDivElement>('.app')!.innerHTML = `
             <ul class="list-unstyled">
               <li>Edad: X años</li>
               <li>
-                 Estado:
+                  Estado:
                 <i class="fas fa-thumbs-down"></i>
                 <i class="fas fa-thumbs-up"></i>
               </li>
@@ -26,20 +26,20 @@ document.querySelector<HTMLDivElement>('.app')!.innerHTML = `
               <li>Peloteo: X</li>
               <li>Asesora a: X</li>
               <li>Sirve a: X</li>
-             </ul>
+               </ul>
             <div class="character__actions">
-               <button class="character__action btn">habla</button>
+                 <button class="character__action btn">habla</button>
               <button class="character__action btn">muere</button>
             </div>
           </div>
         </div>
-         <i class="emoji"></i>
-       </div>
+           <i class="emoji"></i>
+         </div>
     </li>
-   </ul>
-   <div class="comunications">
+     </ul>
+    <div class="comunications">
     <p class="comunications__text display-1">Una frase que dice alguien</p>
     <img class="comunications__picture" src="img/no-one.jpg" alt="Nombre y familia del que habla" />
-   </div>
+    </div>
 
 `;
