@@ -1,6 +1,7 @@
 import './style.css';
 
 document.querySelector<HTMLDivElement>('.app')!.innerHTML = `
+
    <ul class="characters-list row list-unstyled">
       <li class="character col">
         <div class="card character__card">
@@ -40,4 +41,5 @@ document.querySelector<HTMLDivElement>('.app')!.innerHTML = `
     <p class="comunications__text display-1">Una frase que dice alguien</p>
     <img class="comunications__picture" src="img/no-one.jpg" alt="Nombre y familia del que habla" />
   </div>
+  
 `;
