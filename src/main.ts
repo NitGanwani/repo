@@ -1,4 +1,4 @@
-import 'style.css';
+import './style.css';
 
 document.querySelector<HTMLDivElement>('.app')!.innerHTML = `
    <ul class="characters-list row list-unstyled">
